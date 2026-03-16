@@ -1,8 +1,8 @@
 # Setting Up Your API Key
 
-lab-i uses AI to classify your images. To do this it needs access to an AI provider — a service that runs the vision model. You connect your own account with your own key, so lab-i never sees your images on its own servers.
+Sieve uses AI to classify your images. To do this it needs access to an AI provider — a service that runs the vision model. You connect your own account with your own key, so Sieve never sees your images on its own servers.
 
-This page explains how to get a key for each supported provider and enter it into lab-i.
+This page explains how to get a key for each supported provider and enter it into Sieve.
 
 ---
 
@@ -28,12 +28,12 @@ OpenRouter gives you access to several powerful vision models for free without r
 
 1. Go to [openrouter.ai](https://openrouter.ai) and create a free account
 2. Once logged in, go to **Keys** in the left sidebar
-3. Click **Create Key**, give it a name like `lab-i`, and copy the key
-4. Open lab-i, go to **Settings → API Key**
+3. Click **Create Key**, give it a name like `sieve`, and copy the key
+4. Open Sieve, go to **Settings → API Key**
 5. Select **OpenRouter** as your provider
 6. Paste your key and save
 
-The default model in lab-i for OpenRouter is `qwen/qwen2.5-vl-72b-instruct:free` which is a strong free vision model. You can change the model in Settings if you want to try others.
+The default model in Sieve for OpenRouter is `qwen/qwen2.5-vl-72b-instruct:free` which is a strong free vision model. You can change the model in Settings if you want to try others.
 
 > **Free tier limits:** OpenRouter's free models allow around 20 requests per minute and 200 per day. For most users this is more than enough. If you are processing very large batches you may hit the daily limit — in that case either wait until the next day or switch to a paid model.
 
@@ -58,7 +58,7 @@ Ollama runs an AI model directly on your computer. No internet connection is nee
 ollama pull llava
 ```
 3. Ollama runs automatically in the background once installed
-4. Open lab-i, go to **Settings → API Key**
+4. Open Sieve, go to **Settings → API Key**
 5. Select **Ollama** as your provider
 6. No API key is needed — just save
 
@@ -71,11 +71,11 @@ ollama pull llava
 1. Go to [platform.openai.com](https://platform.openai.com) and create an account
 2. Add a payment method and purchase some credits (even $5 will last a long time for image classification)
 3. Go to **API Keys** and create a new key
-4. Open lab-i, go to **Settings → API Key**
+4. Open Sieve, go to **Settings → API Key**
 5. Select **OpenAI** as your provider
 6. Paste your key and save
 
-lab-i uses `gpt-4o` for OpenAI which has strong vision capabilities.
+Sieve uses `gpt-4o` for OpenAI which has strong vision capabilities.
 
 ---
 
@@ -84,11 +84,11 @@ lab-i uses `gpt-4o` for OpenAI which has strong vision capabilities.
 1. Go to [console.anthropic.com](https://console.anthropic.com) and create an account
 2. Add a payment method and purchase credits
 3. Go to **API Keys** and create a new key
-4. Open lab-i, go to **Settings → API Key**
+4. Open Sieve, go to **Settings → API Key**
 5. Select **Anthropic** as your provider
 6. Paste your key and save
 
-lab-i uses `claude-sonnet-4-6` for Anthropic.
+Sieve uses `claude-sonnet-4-6` for Anthropic.
 
 ---
 
@@ -96,7 +96,7 @@ lab-i uses `claude-sonnet-4-6` for Anthropic.
 
 1. Go to [aistudio.google.com](https://aistudio.google.com) and sign in with your Google account
 2. Click **Get API Key** and create a new key
-3. Open lab-i, go to **Settings → API Key**
+3. Open Sieve, go to **Settings → API Key**
 4. Select **Gemini** as your provider
 5. Paste your key and save
 
@@ -106,7 +106,7 @@ Gemini has a free tier but with rate limits. If you hit them frequently, conside
 
 ## Where is my key stored?
 
-Your API key is stored locally on your device using secure encrypted storage. It is never sent to any lab-i server because lab-i has no servers. The key is only used to make direct API calls from your device to your chosen provider.
+Your API key is stored locally on your device using secure encrypted storage. It is never sent to any Sieve server because Sieve has no servers. The key is only used to make direct API calls from your device to your chosen provider.
 
 ---
 

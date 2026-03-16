@@ -1,6 +1,6 @@
-# Using lab-i for Anything
+# Using Sieve for Anything
 
-lab-i was built with research in mind, but the core idea — give it images, give it labels, it sorts them — works for almost anything. If you can write a list of categories, lab-i can sort images into them.
+Sieve works well for research, but the core idea — give it images, give it labels, it sorts them — works for almost anything. If you can write a list of categories, Sieve can sort images into them.
 
 This page shows a few examples outside the lab to help you think about what's possible.
 
@@ -8,7 +8,7 @@ This page shows a few examples outside the lab to help you think about what's po
 
 ## The underlying idea
 
-lab-i does not know anything about biology specifically. It does not have a built-in understanding of gels or microscopy. All it does is show your image to an AI vision model and ask it to pick the best match from your label list.
+Sieve does not know anything about biology specifically. It does not have a built-in understanding of gels or microscopy. All it does is show your image to an AI vision model and ask it to pick the best match from your label list.
 
 This means your label list defines what the app does. Change the labels, and you change what the app is for.
 
@@ -27,7 +27,7 @@ This means your label list defines what the app does. Change the labels, and you
 - Van
 - Scooter
 
-Point lab-i at a folder of vehicle images, select this label set, and you will end up with a sorted folder structure:
+Point Sieve at a folder of vehicle images, select this label set, and you will end up with a sorted folder structure:
 
 ```
 /sorted/
@@ -119,16 +119,16 @@ This is a simple binary-plus workflow where most images go to Pass and the flagg
 
 ## How to set up a non-lab workflow
 
-The process is identical to any other lab-i workflow:
+The process is identical to any other Sieve workflow:
 
-1. Open lab-i and go to **Label Sets**
+1. Open Sieve and go to **Label Sets**
 2. Create a new label set with your categories
 3. Go to the main classify screen
 4. Select your images or folder
 5. Select your new label set
 6. Tap **Classify**
 
-That is it. lab-i does not need to be told what kind of images you have. The AI figures it out from the image itself combined with your label list.
+That is it. Sieve does not need to be told what kind of images you have. The AI figures it out from the image itself combined with your label list.
 
 ---
 
@@ -144,6 +144,6 @@ That is it. lab-i does not need to be told what kind of images you have. The AI 
 
 ---
 
-lab-i is essentially a general purpose image sorting tool that happens to have been designed with researchers in mind. The more clearly you define your label set, the better it works.
+Sieve is essentially a general purpose image sorting tool that works well for research. The more clearly you define your label set, the better it works.
 
 Next: [FAQ](faq.md)

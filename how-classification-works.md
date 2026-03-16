@@ -1,14 +1,14 @@
 # How Classification Works
 
-This page explains what happens when lab-i classifies your images — from the moment you press classify to the moment your files are sorted into folders.
+This page explains what happens when Sieve classifies your images — from the moment you press classify to the moment your files are sorted into folders.
 
 ---
 
 ## The basic idea
 
-lab-i shows each of your images to an AI vision model and asks it to pick the best matching label from your list. The AI looks at the image, considers your labels, and responds with its best guess along with a confidence score — a number between 0 and 1 that indicates how certain it is.
+Sieve shows each of your images to an AI vision model and asks it to pick the best matching label from your list. The AI looks at the image, considers your labels, and responds with its best guess along with a confidence score — a number between 0 and 1 that indicates how certain it is.
 
-lab-i then renames the file, sorts it into a folder, and moves on to the next image.
+Sieve then renames the file, sorts it into a folder, and moves on to the next image.
 
 ---
 
@@ -26,7 +26,7 @@ On the main screen, you choose:
 
 ### 2. Each image is sent to the AI
 
-For each image, lab-i sends the image and a prompt to your chosen AI provider. The prompt looks like this:
+For each image, Sieve sends the image and a prompt to your chosen AI provider. The prompt looks like this:
 
 ```
 Classify this image using exactly one of the following labels: 
@@ -46,7 +46,7 @@ This means the AI is 92% confident the image is a gel.
 
 ### 3. The result is evaluated
 
-lab-i reads the response and checks the confidence score:
+Sieve reads the response and checks the confidence score:
 
 - **0.6 or above** — classified normally, sorted into the matching folder
 - **Below 0.6** — classified but flagged as uncertain with a warning indicator in the gallery
@@ -57,7 +57,7 @@ Uncertain images are still sorted — they don't get skipped — but the warning
 
 ### 4. The file is renamed
 
-Before sorting, lab-i renames the file using this format:
+Before sorting, Sieve renames the file using this format:
 
 ```
 YYYYMMDD_HHMMSS_[label].[original extension]
@@ -71,7 +71,7 @@ For example, an image originally called `IMG_4823.jpg` taken on March 15 2026 at
 
 The date and time come from the file's original timestamp, not the time of classification.
 
-If two files have the same timestamp, lab-i adds a number to avoid collisions:
+If two files have the same timestamp, Sieve adds a number to avoid collisions:
 ```
 20260315_142301_Gel_1.jpg
 20260315_142301_Gel_2.jpg
@@ -81,10 +81,10 @@ If two files have the same timestamp, lab-i adds a number to avoid collisions:
 
 ### 5. The file is sorted into a folder
 
-Inside your chosen storage folder, lab-i creates subfolders named after each label and copies the renamed file into the right one:
+Inside your chosen storage folder, Sieve creates subfolders named after each label and copies the renamed file into the right one:
 
 ```
-/lab-i-storage/
+/sieve-storage/
   /Gel/
     20260315_142301_Gel.jpg
   /Microscopy/
@@ -99,7 +99,7 @@ The original file is not deleted unless you explicitly choose to delete it.
 
 ### 6. A CSV is generated
 
-When classification is complete, lab-i exports a CSV file summarising every result:
+When classification is complete, Sieve exports a CSV file summarising every result:
 
 ```
 filename, label, confidence, flagged

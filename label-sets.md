@@ -1,6 +1,6 @@
 # Label Set Management
 
-A label set is a named list of categories that you want lab-i to sort your images into. This is the core of how lab-i works — you define the categories, lab-i does the sorting.
+A label set is a named list of categories that you want Sieve to sort your images into. This is the core of how Sieve works — you define the categories, Sieve does the sorting.
 
 ---
 
@@ -14,7 +14,7 @@ You can have as many label sets as you want, saved and ready to use. A research 
 
 ## The default label set
 
-lab-i comes with one built-in label set for biological research:
+Sieve comes with one built-in label set for biological research:
 
 **Biology (default)**
 - Drosophila
@@ -33,7 +33,7 @@ You can use this as-is, edit it to fit your workflow, or create entirely new lab
 
 ## Creating a label set
 
-1. Open lab-i and go to **Label Sets** from the main menu
+1. Open Sieve and go to **Label Sets** from the main menu
 2. Tap or click **New Label Set**
 3. Give it a name — something descriptive like "Mouse Histology" or "PCR Gels"
 4. Add your labels one by one using the **Add Label** button
@@ -82,7 +82,7 @@ Deleting a label set does not affect any images already sorted using it.
 
 ## Selecting a label set for classification
 
-When you start a new classification session, lab-i will ask which label set to use. Tap the one you want and proceed.
+When you start a new classification session, Sieve will ask which label set to use. Tap the one you want and proceed.
 
 You can also set a default label set in **Settings** if you mostly use the same one.
 
@@ -120,6 +120,6 @@ You can also set a default label set in **Settings** if you mostly use the same 
 - Phase Contrast
 - Fluorescence
 
-Feel free to adapt any of these or build your own from scratch. See [Using lab-i for Anything](beyond-the-lab.md) for label set ideas outside of research.
+Feel free to adapt any of these or build your own from scratch. See [Using Sieve for Anything](beyond-the-lab.md) for label set ideas outside of research.
 
 Next: [The Gallery](gallery.md)

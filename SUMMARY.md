@@ -1,12 +1,12 @@
 # Summary
 
-* [Welcome to lab-i](README.md)
+* [Welcome to Sieve](README.md)
 
 ## Getting Started
 * [Installation & Setup](getting-started.md)
 * [Setting Up Your API Key](api-key-setup.md)
 
-## Using lab-i
+## Using Sieve
 * [How Classification Works](how-classification-works.md)
 * [Label Set Management](label-sets.md)
 * [The Gallery](gallery.md)
@@ -15,7 +15,7 @@
 * [Supported Providers](providers.md)
 
 ## Beyond the Lab
-* [Using lab-i for Anything](beyond-the-lab.md)
+* [Using Sieve for Anything](beyond-the-lab.md)
 
 ## More
 * [FAQ](faq.md)

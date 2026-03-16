@@ -6,7 +6,7 @@ The gallery is where you browse and manage your sorted images after classificati
 
 ## Opening the gallery
 
-Tap or click **Gallery** in the bottom navigation bar. lab-i will scan your storage folder and display all sorted images grouped by label.
+Tap or click **Gallery** in the bottom navigation bar. Sieve will scan your storage folder and display all sorted images grouped by label.
 
 > **Screenshot placeholder — gallery main view**
 
@@ -60,7 +60,7 @@ If you find a misclassified image, you can delete it from its current folder and
 
 ## Dark and light theme
 
-lab-i v0.1.5 includes both a dark and light theme. You can switch between them in **Settings → Appearance**. The gallery respects your chosen theme.
+Sieve v0.1.5 includes both a dark and light theme. You can switch between them in **Settings → Appearance**. The gallery respects your chosen theme.
 
 > **Screenshot placeholder — gallery in dark mode**
 
@@ -70,8 +70,8 @@ lab-i v0.1.5 includes both a dark and light theme. You can switch between them i
 
 The gallery is just a view into your storage folder. It does not maintain its own database of images. This means:
 
-- If you manually move or delete files outside of lab-i, the gallery will reflect those changes on the next refresh
-- If you switch devices or reinstall the app, pointing lab-i at the same storage folder will restore your gallery
+- If you manually move or delete files outside of Sieve, the gallery will reflect those changes on the next refresh
+- If you switch devices or reinstall the app, pointing Sieve at the same storage folder will restore your gallery
 - The gallery works offline — no internet needed to browse your sorted images
 
 Next: [Supported Providers](providers.md)

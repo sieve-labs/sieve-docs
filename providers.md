@@ -1,6 +1,6 @@
 # Supported Providers
 
-lab-i works with five AI providers. You supply your own key — lab-i just uses it to make calls on your behalf.
+Sieve works with five AI providers. You supply your own key — Sieve just uses it to make calls on your behalf.
 
 ---
 
@@ -21,7 +21,7 @@ Here is a quick decision guide:
 **Setup difficulty:** Easy  
 **Best for:** Getting started, general use
 
-OpenRouter is a gateway that gives you access to many AI models through a single API key. lab-i uses the free Qwen 2.5 VL 72B model by default — a large, capable vision model that handles most image types well.
+OpenRouter is a gateway that gives you access to many AI models through a single API key. Sieve uses the free Qwen 2.5 VL 72B model by default — a large, capable vision model that handles most image types well.
 
 **Free tier limits:**
 - ~20 requests per minute
@@ -55,7 +55,7 @@ Ollama runs a vision model locally on your own machine. Your images never leave 
 ```bash
 ollama pull llava
 ```
-3. Select Ollama in lab-i settings — no API key required
+3. Select Ollama in Sieve settings — no API key required
 
 **Speed:**  
 Ollama is slower than cloud providers because it runs on your own hardware. On a modern laptop expect 5–15 seconds per image. On a machine with a dedicated GPU it will be significantly faster.
@@ -70,7 +70,7 @@ Ollama is slower than cloud providers because it runs on your own hardware. On a
 
 OpenAI's GPT-4o is one of the strongest vision models available. If accuracy on difficult or ambiguous images is your priority, this is a good choice.
 
-**Approximate cost for lab-i usage:**
+**Approximate cost for Sieve usage:**
 - 1,000 images ≈ $3
 - 10,000 images ≈ $30
 
@@ -114,4 +114,4 @@ When you use any cloud provider (OpenRouter, OpenAI, Anthropic, Gemini), your im
 
 If you are working with sensitive, confidential, or regulated data (patient images, unpublished research, proprietary materials), use **Ollama** — your images never leave your device.
 
-Next: [Using lab-i for Anything](beyond-the-lab.md)
+Next: [Using Sieve for Anything](beyond-the-lab.md)
